@@ -1,0 +1,42 @@
+
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+div.left {
+  font-size: x-large;
+  display: block;
+  margin-top: 5px;
+  line-height: 1.5;
+  width: 21%;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 53px;
+}
+.site-header {
+  display: flex;
+}
+
+div.right {
+  font-size: x-large;
+  display: block;
+  margin-top: 5px;
+  line-height: 1.5;
+  width: 26%;
+  font-weight: 600;
+  padding-left: 172px;
+}
+
+.site-title {
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 1.5;
+  padding-left: 5%;
+}
+h2.info {
+  font-size: 2rem;
+  width: 101%;
+  font-style: normal;
+  font-weight: 400;
+}
