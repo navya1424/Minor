@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Trade Chart Of India</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    <section id="navigation_bar">
+      <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="">TRADE CHART</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">LOGIN</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <header class="site-header">
-        <div class="left">GDP(Gross Domestic Product) OF INDIA</div>
-        <div class="site-title">
-            TRADE MAP OF INDIA!!
-            <h2 class="info">INDIA'S EXPORT WITH WORLD'S TOP 10 COUNTRIES</h2>
+          <ul class="navbar-nav ms-auto item-class">
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="">LOGIN</a>
+            </li>
+          </ul>
         </div>
         <div class="right">TOP 10 EXPORT PRODUCTS OF INDIA</div>
 
     </header>
 </body>
+      </nav>
+    </section>
 
+    <!-- sections -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2 d-none d-lg-block">
+          <!-- right section -->
+          <div class="right_section">GDP(Gross Domestic Product) OF INDIA</div>
+        </div>
+        <div class="col-lg-8">
+          <!-- middle section -->
+          <div class="middle_section"><p>TRADE MAP OF INDIA</p></div>
+          <p style="font-size: 30px; font-weight: lighter">
+            INDIA'S EXPORT WITH WORLD'S TOP 10 COUNTRIES
+          </p>
+        </div>
+        <div class="col-sm-2 d-none d-lg-block">
+          <!-- left section -->
+          <div class="left_section">TOP 10 EXPORT PRODUCTS OF INDIA</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
