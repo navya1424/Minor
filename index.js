@@ -1,10 +1,4 @@
-// $(".india").click(function()
-// {
-// $("h1").text("utsav")
-// });
-
-
-var line =["M1427,350 A70,70  25 0,1 445,245",
+var line =["M1427,350 A70,70  25 0,1 445,245 ",
 
 "M1427,350 A976,223  -10 0,0 1290,348",
 
@@ -20,16 +14,13 @@ var line =["M1427,350 A70,70  25 0,1 445,245",
 
  "M1427,350 A976,223  -10 0,0 1450,322",
 
- 
-
 ];
 var counter=0;
 var element = document.getElementById("LINE-IN-USA");
 var time = setInterval(change,3000);
 
 function change(){
-
-  element.setAttribute("d" ,line[counter]); 
+  element.setAttribute("d" ,line[counter]);
   counter++;
 
   if (counter>= line.length){
@@ -82,41 +73,6 @@ function change2(){
   if (counter2>= circle1.length){
     counter2=0;
   }
-
-
-// i=0;
-// paths.forEach( function(item, index) {
-//   i++;
-//   var pathLength=item.getTotalLength(),
-//   speed=250;
-
-//   item.setAttribute("stroke-dasharray", pathLength);
-//   item.setAttribute("stroke-dashoffset",pathLength);
-
-//   if(index==0){
-//     item.innerHTML = "<animate id='test"+ i + "'attributeName='stroke-dashoffset' begin='0s' dur='" + pathLength/speed + "'s to='0' fill='freeze />";
-//   }
-// });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  // zoom
 // let zoom = d3.zoom().on("zoom", zoomed);
